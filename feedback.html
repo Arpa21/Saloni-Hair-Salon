@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+Name of the Developer => Arpa Barua Sumi
+Student id            => BARAD1501
+Assignment for        => SIT 104 Introduction to Web Development
+
+*** This web page is Feedback Page ***
+-->
+<html>
+<head>
+	
+	<title>Feedback</title>
+	<link rel="stylesheet" href="css/style1.css" type="text/css">
+	
+	<script language="JavaScript"> <!--
+	function validate(testform){
+	// 
+	// Create a basic array containing the numbers that we can use to check if a field contains anything but numbers  
+	//
+	var digits="0123456789"
+	var temp
+	//
+// Check if the Name field is empty - that is, its value is null
+//
+if (document.testform.First_name.value=="") {
+//
+//
+alert("No First Name !")
+return false
+}
+if (document.testform.Last_name.value=="") {
+//
+//
+alert("No Last Name !")
+return false
+}
+if (document.testform.email.value=="") {
+//
+//
+alert("No email mentioned !")
+return false
+}
+if (document.testform.comments.value=="") {
+//
+//
+alert("No Comments given !")
+return false
+}
+//
+
+ }
+ //
+ 
+ return true
+ }
+ //-->
+ </script> 
+</head>
+<center>
+    <img src='mibt.jpg' alt="mibt" usemap="#mibtlogo" /> <map name="mibtlogo" id=
+    "mibtlogo">
+      <area shape="rect" coords="0,0,397,125" href="http://www.mibt.vic.edu.au/" alt=
+      "link" />
+    </map>
+  </center>
+<body background="back100.jpg">
+	<div id="header">
+		<div class="section">
+			<div class="logo">
+			
+			<h1 align="center"><font size="40" face='Comic Sans MS' color="brown">~*Saloni*~</font></h1>
+			</div>
+			<div align="center">
+			<font size ="5">
+					<a href="index.html">home</a>
+				
+				
+					<a href="about.html">about</a>
+				
+					<a href="hairstyle.html">hairstyles</a>
+				
+					<a href="news.html">news</a>
+				
+					<a href="contact.html">contact</a>
+				
+				<a href="disclaimer.html">Disclaimer</a>
+				</div>
+		</div>
+	</div>
+	<h1> Feedback </h1>
+<form action = 'feedback.php'
+method = 'get'>
+First_name: <input type= "text" name= "First_name" value= "Type your first name here" maxlength="10" size="30"><br>
+Last_name: <input type= "text" name= "Last_name" value= "Type your last name here" size ="30"><br>
+email:
+    <input name="email" type="text" value="" size="30"/><br>
+
+<textarea name = 'comments'>
+</textarea>
+<br>
+<input type = 'submit' value = 'submit'>
+</form>
+<div class="connect">
+				
+				
+				<br><img src="twitter.jpg" align="absmiddle" width="5%"><a href="https://twitter.com" target="_blank">saloni</a>
+			<br><img src="facebook.jpg" align="absmiddle" width="5%"><a href="https://facebook.com" target="_blank">saloni</a>
+			</div>
+			<div id="footer">
+	<div>
+	<p align="center">This web page has been developed as a student assignment for
+        the unit SIT104: Introduction to Web Development. Created by <a href=
+        "ass1sec1.html">Arpa Barua Sumi</a></p>
+		
+			</div>
+			</div>
+			
+		
+
+</body>
+</html>
